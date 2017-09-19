@@ -1,0 +1,41 @@
+{
+  "name": "geovideoranking",
+  "version": "1.0.0",
+  "description": "MSc Thesis",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "pg": "^6.1.0",
+    "body-parser": "^1.15.2",
+    "turf": "^3.0.14",
+    "wkx": "^0.4.0",
+    "q": "^1.4.1",
+    "socket.io": "^1.4.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tobias Brüggentisch",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TobiTobsen92/GeoVideoRanking.git"
+  },
+  "keywords": [
+    "msc",
+    "thesis",
+    "thesis",
+    "deep",
+    "georeferences",
+    "geovideo",
+    "georeferenced",
+    "videos",
+    "video",
+    "geovideo"
+  ],
+  "bugs": {
+    "url": "https://github.com/TobiTobsen92/GeoVideoRanking/issues"
+  },
+  "homepage": "https://github.com/TobiTobsen92/GeoVideoRanking#readme"
+}

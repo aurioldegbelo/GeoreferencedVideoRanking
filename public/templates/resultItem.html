@@ -1,0 +1,30 @@
+<div id="{{value.info.id}}" class="resultItem" ng-click="createViewer(value.info.id, value.info.src)">
+    <table>
+        <tr>
+            <th colspan="2">
+                <p>{{value.info.number}}</p>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <video ng-attr-id="{{'video_'+value.info.id}}" type="video/mp4" style="width:150px;">
+                    <source type="video/mp4" ng-src="{{value.info.src}}"/>
+                </video>
+                <!--<img ng-attr-id="{{'video_'+value.info.id}}"
+                     ng-src = "{{'http://api.geovid.org/v1.0/gv/thumbnail/' + value.info.id + '/high'}}"
+                     style="width:150px;" />-->
+            </td>
+            <td>
+                <table style="margin-left: 20px">
+                    <col width="80">
+                    <col width="170">
+                    <tr ng-repeat="(key,val) in value.rankings">
+                        <!--<td><strong>{{key}}</strong></td>-->
+                        <td><span class="badge">{{key}}</span></td>
+                        <td>{{val}}</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</div>
