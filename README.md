@@ -9,8 +9,10 @@ This piece of software was developed as part of a master thesis at the Institute
 1.  Download this repository and unpack it.
 2.  Download and install Node.js on you computer.
 3.  Open a shell and navigate to the project directory.
-4.  Run ```npm install``` to download and install all required modules.
-5.  Run `node app.js` to start the system
+4.  Create an empty PostgreSQL database, name it "geovideo" and use the file *createGeoVideoDB.sql* to create an empty video database
+5.  Populate the database with geo video data
+6.  Run ```npm install``` to download and install all required modules.
+7.  Run `node app.js` to start the system
 
 ## Configuration
 
